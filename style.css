@@ -1,0 +1,433 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel+Decorative:wght@400;700;900&family=Dancing+Script:wght@600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.content h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4em;
+    letter-spacing: 0.4em;
+    margin-bottom: -60px;
+    z-index: 1;
+    
+}
+body{
+    cursor: none;
+}
+.wrapper {
+    height: 100%;
+    cursor: none;
+  }
+.about-element img{
+    border: 1px solid ;
+    padding: 10px;
+} 
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: #28282855;
+    margin: -25px 0 0 -25px;
+    border-radius: 50%;
+    animation: pulse 1.4s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+#app canvas {
+    z-index: -1;
+}
+.content span{
+    color: #fff;
+}
+
+.header{
+    
+    width: 100%;
+    color: #282828;
+    
+}
+.content{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.container{
+    max-width:1200px;
+    margin: auto;
+}
+.content img{
+    height: 400px;
+    width: 350px;
+    rotate: -15deg;
+    z-index: 0;
+}
+.content h2{
+    font-size: 4em;
+    margin-top: -50px;
+    letter-spacing: 0.8em;
+    z-index: 1;
+}
+.content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.about{
+    height: 100vh;
+    padding: 30px;
+}
+.about-element{
+    position : relative;
+}
+.about-cont{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.about-cont h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    z-index: 1;
+}
+.about-cont img{
+    height: 400px;
+    position: absolute;
+    right: 300px;
+    top: 50;
+    width: 260px;
+    
+}
+#head1{
+    margin-left: 0px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.about-cont2{
+    position: relative;
+}
+.text1{
+    width: 400px;
+    font-size: 20px;
+}
+.text1 p {
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.about-cont2 .img-right{
+    position: absolute;
+    right: 85px;
+    
+    top: 20px;
+    height: 250px;
+    width: 170px;
+}
+.about-cont2 .img-top{
+    position: absolute;
+    right: 300px;
+    top: 140px;
+    height: 250px;
+    width: 170px;
+}
+.exp{
+    height: 100vh;
+}
+.exp-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.exp-cont .exp1 h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}
+.exp2 img{
+    width: 400px;
+    height: 600px;
+    margin-top: 60px;
+}
+.exp1-text p{
+   font-size: 20px;
+   width: 600px;
+   line-height: 1.5em;
+    letter-spacing: 2px;
+}
+.exp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exp1 .row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+.row ul {
+    padding: 10px 15px;
+}
+
+.row ul li{
+    font-size: 20px;
+    padding: 5px 0;
+
+}
+
+.skill-cont{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.skill-cont .image img{
+    width: 450px;
+    height: 300px;
+    
+    
+
+}
+
+.skill-cont .image h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4em;
+      
+}
+
+
+.skill-cont .image h1 span{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 60px;
+}
+.text2{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    column-gap: 50px;
+}
+.text2 p{
+    font-size: 17px;
+}
+.current {
+    padding: 50px 0;
+}
+.currently h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2em;
+    letter-spacing: 0.4em;
+    position: relative;
+}
+
+.left p{
+    font-size: 18px;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 1.7em;
+    padding: 20px 0;
+    text-transform: uppercase;
+
+    
+    color: #767676;
+}
+
+
+.contact-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.ring{
+    height: 550px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*#my-svg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }*/
+
+.contact-cont img{
+    height: 350px;
+    width: 230px;
+    border-radius: 40% ;
+}
+.right-cont i{
+    border: 2px dashed #000;
+    position: absolute;
+    inset: 0;
+
+    
+
+}
+.right-cont .ring:hover i {
+    border : 2px solid #000;
+}
+.right-cont i:nth-child(1){
+    border-radius: 41% 59% 70% 30% / 42% 30% 70% 58% ;
+    animation : animate 6s linear infinite;
+    
+}
+.right-cont i:nth-child(2){
+    border-radius: 26% 74% 29% 71% / 55% 53% 47% 45%  ;
+    animation : animate 4s linear infinite;
+}
+.right-cont i:nth-child(3){
+    border-radius: 59% 41% 71% 29% / 55% 53% 47% 45%   ;
+    animation : animate 5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+.contact-cont h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4em;
+    letter-spacing: 0.4em;
+}
+.bot-img img{
+    width: 30px;
+    height: 30px;
+    
+}
+.bot-img {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.contact-cont .left-cont{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-cont .right-cont{
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-cont .bot{
+    padding: 20px 0;
+}
+.left-cont .bot h3{
+    font-size: 24px;
+}
+
+.left-cont .bot p{
+    font-size: 20px;
+}
+.right {
+    height: 80vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+
+@media only screen and (max-width:600px){
+    .container{
+        padding: 0 100px;
+        width: 1200px;
+
+    }
+    .circle {
+        position: relative;
+        display: none;
+    }
+    .exp1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .current {
+        padding: 50px 0;
+    }
+    .about {
+        padding: 50px 0;
+    }
+    .exp{
+        padding: 50px 0;
+    }
+    .skills {
+        padding: 50px 0;
+    }
+    
+    
+
+}
